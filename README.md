@@ -51,25 +51,26 @@ Website dirancang dengan tampilan modern, interaktif, dan responsif agar dapat d
 
 ## 6. Screenshot Hasil Website
 
-### A. Tampilan Home
+### 1. Tampilan Home
+![Home](screenshots/home.png)
 
-Screenshot tampilan halaman utama website.
+### 2. Tampilan About
+![About](screenshots/about.png)
 
-### B. Tampilan About dan Education
+### 3. Tampilan Education
+![Education](screenshots/education.png)
 
-Screenshot bagian profil dan riwayat pendidikan.
+### 4. Tampilan Experience
+![Experience](screenshots/experience.png)
 
-### C. Tampilan Experience dan Skills
+### 5. Tampilan Skills
+![Skills](screenshots/skills.png)
 
-Screenshot bagian pengalaman dan keahlian.
+### 6. Personal Introduction
+![Personal Introduction](screenshots/introduction.png)
 
-### D. Tampilan Personal Introduction
-
-Screenshot bagian audio dan video perkenalan.
-
-### E. Tampilan Contact
-
-Screenshot bagian formulir kontak.
+### 7. Tampilan Contact
+![Contact](screenshots/contact.png)
 
 ## 7. Struktur Folder Project
 
