@@ -1,0 +1,861 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Muhammad Rhiva At-Taurrahman Shaleh">
+    <meta name="description" content="Personal Portfolio Muhammad Rhiva At-Taurrahman Shaleh">
+    <title>Muhammad Rhiva | Personal Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- PROGRESS BAR -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                RH<span>.</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Buka menu"
+                aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="theme-toggle" id="themeToggle"
+                aria-label="Ganti tema">
+                ☀
+            </button>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero container" id="home">
+
+            <div class="hero-content reveal">
+
+                <span class="eyebrow">
+                    PERSONAL PORTFOLIO / 2026
+                </span>
+
+                <p class="intro-label">HELLO, I'M</p>
+
+                <h1>
+                    Muhammad Rhiva
+                    <span class="gradient-text">
+                        At-Taurrahman Shaleh.
+                    </span>
+                </h1>
+
+                <h2>
+                    <span id="typingText"></span>
+                    <span class="cursor">|</span>
+                </h2>
+
+                <p class="hero-description">
+                    Saya merupakan individu yang memiliki pengalaman
+                    di bidang produksi dan organisasi. Saya senang
+                    mempelajari hal baru, bekerja sama dalam tim,
+                    serta mengembangkan kemampuan diri untuk
+                    menghadapi tantangan dan peluang baru.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">
+                        Explore My Profile ↗
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="hero-info">
+                    <div>
+                        <strong>02+</strong>
+                        <span>Years Experience</span>
+                    </div>
+
+                    <div>
+                        <strong>01</strong>
+                        <span>Organization Role</span>
+                    </div>
+
+                    <div>
+                        <strong>2025</strong>
+                        <span>Academic Journey</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="hero-visual reveal">
+
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="profile-frame">
+                    <img src="images/profil.jpeg"
+                        alt="Foto Muhammad Rhiva"
+                        onerror="this.style.display='none'">
+
+                    <div class="profile-fallback">
+                        RH
+                    </div>
+                </div>
+
+                <div class="floating-tag tag-one">
+                    ✦ Production Experience
+                </div>
+
+                <div class="floating-tag tag-two">
+                    ◈ Continuous Growth
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section class="section alt-section" id="about">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="eyebrow">01 / ABOUT ME</span>
+
+                    <h2>
+                        Get to Know
+                        <span class="gradient-text">Me.</span>
+                    </h2>
+
+                    <p>
+                        Mengenal lebih dekat identitas, latar belakang,
+                        dan perjalanan pribadi saya.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+
+                    <article class="glass-card reveal">
+
+                        <span class="card-icon">✦</span>
+
+                        <h3>Who Am I?</h3>
+
+                        <p>
+                            Halo! Saya Muhammad Rhiva At-Taurrahman
+                            Shaleh, seorang mahasiswa Teknik Informatika
+                            yang memiliki pengalaman di bidang industri
+                            manufaktur dan organisasi.
+                        </p>
+
+                        <p>
+                            Saya memiliki ketertarikan untuk terus
+                            mengembangkan kemampuan, memperluas
+                            wawasan, serta mendapatkan pengalaman
+                            baru melalui proses belajar dan bekerja.
+                        </p>
+
+                    </article>
+
+
+                    <article class="glass-card reveal">
+
+                        <span class="card-icon">◈</span>
+
+                        <h3>Personal Information</h3>
+
+                        <dl class="info-list">
+
+                            <div>
+                                <dt>Nama</dt>
+                                <dd>Muhammad Rhiva At-Taurrahman Shaleh</dd>
+                            </div>
+
+                            <div>
+                                <dt>NIM</dt>
+                                <dd>312510113</dd>
+                            </div>
+
+                            <div>
+                                <dt>Program Studi</dt>
+                                <dd>Teknik Informatika</dd>
+                            </div>
+
+                            <div>
+                                <dt>Universitas</dt>
+                                <dd>Universitas Pelita Bangsa</dd>
+                            </div>
+
+                            <div>
+                                <dt>No. HP</dt>
+                                <dd>083876681559</dd>
+                            </div>
+
+                            <div>
+                                <dt>Email</dt>
+                                <dd>yxrips@gmail.com</dd>
+                            </div>
+
+                        </dl>
+
+                    </article>
+
+
+                    <article class="glass-card wide-card reveal">
+
+                        <span class="card-icon">◎</span>
+
+                        <h3>My Personal Values</h3>
+
+                        <blockquote>
+                            "Every experience is an opportunity
+                            to learn, improve, and become better."
+                        </blockquote>
+
+                        <p>
+                            Saya percaya bahwa pengalaman, tanggung
+                            jawab, kedisiplinan, dan kemauan untuk
+                            belajar merupakan bagian penting dalam
+                            membangun kualitas diri.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EDUCATION SECTION -->
+        <section class="section" id="education">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="eyebrow">02 / ACADEMIC BACKGROUND</span>
+
+                    <h2>
+                        My
+                        <span class="gradient-text">Education.</span>
+                    </h2>
+
+                    <p>
+                        Riwayat pendidikan dan perjalanan akademik saya.
+                    </p>
+
+                </div>
+
+                <div class="table-wrapper reveal">
+
+                    <table>
+
+                        <caption>Riwayat Pendidikan</caption>
+
+                        <thead>
+                            <tr>
+                                <th>No.</th>
+                                <th>Jenjang</th>
+                                <th>Institusi</th>
+                                <th>Jurusan</th>
+                                <th>Tahun</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>01</td>
+                                <td>Perguruan Tinggi</td>
+                                <td>Universitas Pelita Bangsa</td>
+                                <td>Teknik Informatika</td>
+                                <td>2025 - Sekarang</td>
+                                <td>
+                                    <span class="status active-status">
+                                        Aktif
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>02</td>
+                                <td>SMK</td>
+                                <td>SMK Mitra Industri MM2100</td>
+                                <td>Teknik Elektronika Industri</td>
+                                <td>2021 - 2024</td>
+                                <td>
+                                    <span class="status">
+                                        Lulus
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>03</td>
+                                <td>SMP</td>
+                                <td>SMP 3 Cikarang Selatan</td>
+                                <td>-</td>
+                                <td>2018 - 2021</td>
+                                <td>
+                                    <span class="status">
+                                        Lulus
+                                    </span>
+                                </td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EXPERIENCE SECTION -->
+        <section class="section alt-section" id="experience">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="eyebrow">03 / PROFESSIONAL JOURNEY</span>
+
+                    <h2>
+                        Work &
+                        <span class="gradient-text">Experience.</span>
+                    </h2>
+
+                    <p>
+                        Pengalaman kerja, magang, dan organisasi
+                        yang telah saya jalani.
+                    </p>
+
+                </div>
+
+
+                <!-- WORK EXPERIENCE -->
+
+                <div class="subheading reveal">
+                    <span class="subheading-number">01</span>
+                    <h3>Professional Experience</h3>
+                </div>
+
+                <div class="experience-grid">
+
+                    <article class="experience-card reveal">
+
+                        <div class="experience-top">
+                            <span class="experience-icon">⚙</span>
+                            <span class="experience-date">
+                                2024 - 2026
+                            </span>
+                        </div>
+
+                        <span class="experience-category">
+                            WORK EXPERIENCE
+                        </span>
+
+                        <h3>Operator Produksi</h3>
+
+                        <h4>PT Astra Honda Motor</h4>
+
+                        <p>
+                            Bertanggung jawab dalam proses perakitan
+                            engine serta memastikan setiap proses
+                            berjalan dengan aman dan benar sesuai
+                            prosedur kerja yang berlaku.
+                        </p>
+
+                        <div class="experience-tags">
+                            <span>Manufacturing</span>
+                            <span>Engine Assembly</span>
+                            <span>Quality Awareness</span>
+                        </div>
+
+                    </article>
+
+
+                    <article class="experience-card reveal">
+
+                        <div class="experience-top">
+                            <span class="experience-icon">🏭</span>
+                            <span class="experience-date">
+                                2023
+                            </span>
+                        </div>
+
+                        <span class="experience-category">
+                            INTERNSHIP EXPERIENCE
+                        </span>
+
+                        <h3>Operator Produksi</h3>
+
+                        <h4>PT Nutrifood Indonesia</h4>
+
+                        <p>
+                            Memperoleh pengalaman kerja di lingkungan
+                            industri sebagai operator produksi serta
+                            mengenal proses dan aktivitas operasional
+                            dalam kegiatan manufaktur.
+                        </p>
+
+                        <div class="experience-tags">
+                            <span>Production</span>
+                            <span>Teamwork</span>
+                            <span>Industrial Environment</span>
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <!-- ORGANIZATION -->
+
+                <div class="subheading reveal">
+
+                    <span class="subheading-number">02</span>
+
+                    <h3>Organizational Experience</h3>
+
+                </div>
+
+                <article class="organization-card reveal">
+
+                    <div class="organization-symbol">
+                        ◈
+                    </div>
+
+                    <div class="organization-content">
+
+                        <span class="experience-category">
+                            ORGANIZATIONAL EXPERIENCE
+                        </span>
+
+                        <h3>Wakil Ketua Umum</h3>
+
+                        <h4>Duta Lingkungan</h4>
+
+                        <span class="experience-date">
+                            2021 - 2024
+                        </span>
+
+                        <p>
+                            Menjabat sebagai Wakil Ketua Umum
+                            Duta Lingkungan dan terlibat dalam
+                            kegiatan organisasi selama periode
+                            kepengurusan.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS SECTION -->
+        <section class="section" id="skills">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="eyebrow">04 / PERSONAL DEVELOPMENT</span>
+
+                    <h2>
+                        Skills &
+                        <span class="gradient-text">Capabilities.</span>
+                    </h2>
+
+                    <p>
+                        Kemampuan dan kompetensi yang saya kembangkan
+                        melalui pendidikan serta pengalaman.
+                    </p>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+                    <article class="glass-card reveal">
+
+                        <span class="card-icon">⌘</span>
+
+                        <h3>Technical Interests</h3>
+
+                        <ul class="skill-list">
+                            <li>Basic Electronics</li>
+                            <li>Production Operations</li>
+                            <li>Engine Assembly</li>
+                            <li>Computer & Technology</li>
+                            <li>Web Development</li>
+                        </ul>
+
+                    </article>
+
+
+                    <article class="glass-card reveal">
+
+                        <span class="card-icon">✧</span>
+
+                        <h3>Personal Skills</h3>
+
+                        <ul class="skill-list">
+                            <li>Teamwork</li>
+                            <li>Communication</li>
+                            <li>Discipline</li>
+                            <li>Responsibility</li>
+                            <li>Adaptability</li>
+                        </ul>
+
+                    </article>
+
+
+                    <article class="glass-card wide-card reveal">
+
+                        <span class="card-icon">◎</span>
+
+                        <h3>My Strengths</h3>
+
+                        <p>
+                            Saya berusaha mengutamakan kedisiplinan,
+                            tanggung jawab, kerja sama, dan ketelitian
+                            dalam menjalankan tugas. Saya juga memiliki
+                            semangat untuk terus belajar dan beradaptasi
+                            dengan lingkungan baru.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SHORT INTRODUCTION MULTIMEDIA -->
+        <section class="section alt-section" id="introduction">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="eyebrow">05 / PERSONAL INTRODUCTION</span>
+
+                    <h2>
+                        A Little About
+                        <span class="gradient-text">Me.</span>
+                    </h2>
+
+                    <p>
+                        Perkenalan singkat melalui audio dan video.
+                    </p>
+
+                </div>
+
+
+                <div class="media-grid">
+
+                    <article class="glass-card reveal">
+
+                        <span class="card-icon">♫</span>
+
+                        <h3>Audio Introduction</h3>
+
+                        <p>
+                            Dengarkan perkenalan singkat saya.
+                        </p>
+
+                        <audio controls preload="metadata">
+                            <source src="media/perkenalann.mp4"
+                                type="audio/mpeg">
+
+                            Browser tidak mendukung audio.
+                        </audio>
+
+                    </article>
+
+
+                    <article class="glass-card reveal">
+
+                        <span class="card-icon">▷</span>
+
+                        <h3>Video Introduction</h3>
+
+                        <p>
+                            Video singkat untuk memperkenalkan diri
+                            dan latar belakang saya.
+                        </p>
+
+                        <video controls preload="metadata"
+                            poster="images/dokumentasi.jpeg">
+
+                            <source src="media/perkenalan.mp4"
+                                type="video/mp4">
+
+                            Browser tidak mendukung video.
+
+                        </video>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="section" id="contact">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="eyebrow">06 / GET IN TOUCH</span>
+
+                    <h2>
+                        Let's
+                        <span class="gradient-text">Connect.</span>
+                    </h2>
+
+                    <p>
+                        Terbuka untuk komunikasi, pertukaran ide,
+                        dan kesempatan baru.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+                    <div class="contact-intro reveal">
+
+                        <h3>Let's start a conversation.</h3>
+
+                        <p>
+                            Jangan ragu untuk menghubungi saya
+                            melalui informasi kontak berikut.
+                        </p>
+
+                        <div class="contact-detail">
+                            <span>✉</span>
+                            <div>
+                                <small>Email</small>
+                                <a href="mailto:yxrips@gmail.com">
+                                    yxrips@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <span>☎</span>
+                            <div>
+                                <small>Phone</small>
+                                <a href="tel:083876681559">
+                                    083876681559
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <span>⌖</span>
+                            <div>
+                                <small>Education</small>
+                                <p>Universitas Pelita Bangsa</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- CONTACT FORM -->
+
+                    <form class="glass-card contact-form"
+                        id="contactForm" novalidate>
+
+                        <div class="form-row">
+
+                            <div class="field">
+
+                                <label for="name">
+                                    Nama Lengkap
+                                </label>
+
+                                <input type="text"
+                                    id="name"
+                                    placeholder="Masukkan nama"
+                                    required minlength="3">
+
+                                <small class="error"
+                                    id="nameError"></small>
+
+                            </div>
+
+
+                            <div class="field">
+
+                                <label for="email">
+                                    Email
+                                </label>
+
+                                <input type="email"
+                                    id="email"
+                                    placeholder="email@example.com"
+                                    required>
+
+                                <small class="error"
+                                    id="emailError"></small>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="subject">
+                                Subjek
+                            </label>
+
+                            <select id="subject" required>
+
+                                <option value="">
+                                    Pilih subjek
+                                </option>
+
+                                <option value="Kolaborasi">
+                                    Kolaborasi
+                                </option>
+
+                                <option value="Pertanyaan">
+                                    Pertanyaan
+                                </option>
+
+                                <option value="Informasi">
+                                    Informasi
+                                </option>
+
+                                <option value="Lainnya">
+                                    Lainnya
+                                </option>
+
+                            </select>
+
+                            <small class="error"
+                                id="subjectError"></small>
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="message">
+                                Pesan
+                            </label>
+
+                            <textarea id="message"
+                                rows="5"
+                                placeholder="Tuliskan pesan kamu..."
+                                required minlength="10"></textarea>
+
+                            <small class="error"
+                                id="messageError"></small>
+
+                        </div>
+
+
+                        <button type="submit"
+                            class="btn btn-primary submit-btn">
+
+                            Send Message ↗
+
+                        </button>
+
+                        <p id="formStatus"
+                            class="form-status"
+                            role="status"
+                            aria-live="polite"></p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container footer-inner">
+
+            <a href="#home" class="logo">
+                RH<span>.</span>
+            </a>
+
+            <p>
+                Designed with purpose. Built with passion.
+            </p>
+
+            <p>
+                © <span id="year"></span>
+                Muhammad Rhiva At-Taurrahman Shaleh.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- BACK TO TOP -->
+    <button class="back-to-top"
+        id="backToTop"
+        aria-label="Kembali ke atas">
+        ↑
+    </button>
+
+</body>
+</html>
